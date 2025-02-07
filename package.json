@@ -1,0 +1,76 @@
+{
+  "name": "mediaflow",
+  "productName": "MediaFlow",
+  "version": "1.0.0",
+  "description": "An intelligent media management application for organizing photos and videos with EXIF metadata, duplicate detection, and smart features",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
+  },
+  "keywords": [
+    "photo",
+    "organizer",
+    "exif"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "icon": "./assets/icon",
+        "asar": true,
+        "extraResource": [
+          "node_modules/exiftool-vendored.exe/bin/exiftool.exe"
+        ]
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "mediaflow"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.2.0",
+    "@electron-forge/maker-deb": "^7.2.0",
+    "@electron-forge/maker-rpm": "^7.2.0",
+    "@electron-forge/maker-squirrel": "^7.2.0",
+    "@electron-forge/maker-zip": "^7.2.0",
+    "@electron/rebuild": "^3.7.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "autoprefixer": "^10.4.17",
+    "electron": "^28.1.0",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "exiftool-vendored": "^24.2.0",
+    "heic-convert": "^2.1.0",
+    "sharp": "^0.33.5"
+  }
+}
