@@ -1,18 +1,18 @@
-# Picture Organizer
+# MediaFlow
 
-Um aplicativo desktop construído com Electron para organizar suas imagens de forma eficiente.
+Um aplicativo desktop construído com Electron para organizar suas mídias de forma eficiente.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## 📋 Descrição
 
-Picture Organizer é uma aplicação desktop que ajuda você a organizar suas imagens automaticamente. O aplicativo permite categorizar, renomear e mover arquivos de imagem de forma intuitiva e eficiente.
+MediaFlow é uma aplicação desktop que ajuda você a organizar suas mídias automaticamente. O aplicativo permite categorizar, renomear e mover arquivos de mídia de forma intuitiva e eficiente.
 
 ## ✨ Funcionalidades
 
 - Interface moderna construída com Electron e TailwindCSS
-- Organização automática de imagens
-- Suporte para diversos formatos de imagem
+- Organização automática de mídias
+- Suporte para diversos formatos de mídia
 - Interface de usuário intuitiva e amigável
 - Processamento em lote de arquivos
 
@@ -27,8 +27,8 @@ Picture Organizer é uma aplicação desktop que ajuda você a organizar suas im
 
 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/picture-organizer.git
-cd picture-organizer
+git clone https://github.com/wernerjr/mediaflow.git
+cd mediaflow
 ```
 
 2. Instale as dependências
@@ -65,7 +65,7 @@ yarn make
 ## 📁 Estrutura do Projeto
 
 ```
-picture-organizer/
+mediaflow/
 ├── src/
 │   ├── components/     # Componentes React
 │   ├── modules/        # Módulos de lógica de negócio
@@ -93,4 +93,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 Werner - werner.junior@outlook.com
 
-Link do Projeto: [https://github.com/wernerjr/picture-organizer](https://github.com/wernerjr/picture-organizer) 
+Link do Projeto: [https://github.com/wernerjr/mediaflow](https://github.com/wernerjr/mediaflow) 
