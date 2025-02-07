@@ -77,7 +77,7 @@ picture-organizer/
 
 ## 🤝 Contribuindo
 
-Contribuições são sempre bem-vindas! Por favor, leia o [guia de contribuição](CONTRIBUTING.md) primeiro.
+Contribuições são sempre bem-vindas!
 
 1. Faça um Fork do projeto
 2. Crie sua Feature Branch (`git checkout -b feature/AmazingFeature`)
